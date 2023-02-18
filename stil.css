@@ -1,0 +1,62 @@
+html {background: black url(background.jpg) center center no-repeat ;
+    background-size: cover;
+color: aliceblue;}
+body {
+   margin: 0%;
+    display: grid;
+    place-items: center;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.container {
+    margin: 2vh;
+    background: rgba(79, 109, 245, 0.8);
+padding: 2rem;
+border-radius: 2rem;
+font-size: clamp(1rem, 2vw, 2rem);
+line-height: 1.5em;
+}
+.lista-linkuri {
+
+}
+.avatar {
+    display: block;
+    float: left;
+    width: 112px;
+    height: 112px;
+    margin: 0 1em 0 0;
+    border-radius: 50%;
+}
+.titlul {display: block;
+font-size: clamp(2rem, 6vw, 4rem);
+line-height: 1em;
+margin: 0%;}
+
+.lista-linkuri {
+display: block;
+margin: 0%;
+padding: 0%;
+border-top: 1px solid #fff;
+}
+.lista-titluri, .lista-text {
+display: block;
+font-size: 1em;
+line-height: 1.5em;
+margin: 0%;
+padding: 0%;
+
+
+}
+.list-items {
+    display: block;
+    margin: 0%;
+    padding: 0%;
+border-bottom: 1px solid #fff;
+}
+.lista-link {
+    display: block;
+    padding: 0.5em;
+    color: #fff;
+    text-decoration: none;
+}
